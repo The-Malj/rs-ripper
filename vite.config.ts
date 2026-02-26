@@ -1,8 +1,13 @@
 import { defineConfig } from "vite";
 import { resolve } from "node:path";
 
-export default defineConfig({
-  base: "https://the-malj.github.io/rs-ripper/",
+export default defineConfig(({ command }) => ({
+  base:
+    command === "serve"
+      ? "/"
+      : process.env.GITHUB_ACTIONS
+        ? "https://the-malj.github.io/rs-ripper/"
+        : "/",
   build: {
     outDir: "dist",
     sourcemap: true,
@@ -21,5 +26,5 @@ export default defineConfig({
     host: "127.0.0.1",
     port: 4173,
   },
-});
+}));
 
