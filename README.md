@@ -14,7 +14,7 @@ An Alt1 plugin for RuneScape that detects achievement state and guides you throu
 ## Prerequisites
 
 - **Node.js** 20+ (see [.nvmrc](.nvmrc))
-- **Alt1** — [Install Alt1]([https://alt1.eu/](https://runeapps.org/)) to run the plugin in RuneScape
+- **Alt1** — [Install Alt1](https://runeapps.org/) to run the plugin in RuneScape
 - **RuneScape** — Client must be capturable by Alt1 (typically via the Alt1 overlay)
 
 ## Getting started
