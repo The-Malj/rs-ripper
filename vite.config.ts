@@ -2,7 +2,7 @@ import { defineConfig } from "vite";
 import { resolve } from "node:path";
 
 export default defineConfig({
-  base: "/rs-ripper/",
+  base: "https://the-malj.github.io/rs-ripper/",
   build: {
     outDir: "dist",
     sourcemap: true,
