@@ -1,0 +1,87 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #10151c;
+  color: #eef3f9;
+}
+
+#sampler-app {
+  padding: 12px;
+  display: grid;
+  gap: 10px;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+button {
+  background: #1d2733;
+  color: #eef3f9;
+  border: 1px solid #334255;
+  border-radius: 4px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.meta-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(140px, 1fr));
+  gap: 8px;
+}
+
+label {
+  font-size: 12px;
+  display: grid;
+  gap: 4px;
+}
+
+input,
+select {
+  background: #0e131a;
+  color: #eef3f9;
+  border: 1px solid #334255;
+  border-radius: 4px;
+  padding: 5px 6px;
+}
+
+#status,
+#save-folder,
+#selection-info,
+#test-result {
+  font-size: 13px;
+}
+
+.canvas-wrap {
+  background: #0a0f14;
+  border: 1px solid #2f3d4d;
+  border-radius: 6px;
+  overflow: auto;
+  max-height: 60vh;
+}
+
+#frame-canvas {
+  display: block;
+  image-rendering: pixelated;
+  cursor: crosshair;
+}
+
+#samples-list {
+  margin: 0;
+  background: #0b1118;
+  border: 1px solid #2b3746;
+  border-radius: 6px;
+  padding: 10px;
+  max-height: 220px;
+  overflow: auto;
+  font-size: 12px;
+}

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RSRipperV2</title>
+  </head>
+  <body>
+    <div id="app">
+      <div id="welcome-loading" class="welcome-loading" aria-live="polite">
+        <div class="welcome-loading-content">
+          <h1 class="welcome-loading-title">Welcome to RS Ripper</h1>
+          <p class="welcome-loading-subtitle">Detecting game interface…</p>
+        </div>
+      </div>
+      <div id="instruction-card" class="card">
+        <div class="label">Instruction</div>
+        <div class="value" id="instruction">Waiting for live capture.</div>
+      </div>
+      <div id="profile-selection-card" class="card is-hidden">
+        <div class="label">Profile</div>
+        <div class="profile-rocker">
+          <button type="button" id="profile-load-btn" class="profile-rocker-half">Load Profile</button>
+          <button type="button" id="profile-fresh-btn" class="profile-rocker-half">Start Fresh</button>
+        </div>
+        <div id="profile-error" class="profile-error is-hidden"></div>
+        <div id="profile-list" class="profile-list">
+          <div class="label">Saved profiles</div>
+          <div id="profile-list-items" class="profile-list-items"></div>
+        </div>
+      </div>
+      <div id="profile-create-card" class="card is-hidden">
+        <div class="profile-create-header">
+          <button type="button" id="profile-create-back-btn" class="profile-back-btn">← Back</button>
+          <div class="label">Create new profile</div>
+        </div>
+        <div class="profile-create-form">
+          <input type="text" id="profile-name-input" class="profile-name-input" placeholder="Profile name" maxlength="20" autocomplete="off" />
+          <button type="button" id="profile-create-btn" class="profile-rocker-half">Create</button>
+        </div>
+        <div id="profile-create-error" class="profile-error is-hidden"></div>
+      </div>
+      <div id="category-properties-card" class="card is-hidden">
+        <div class="category-card-header">
+          <div class="label">Category completion</div>
+          <div class="category-view-rocker profile-rocker">
+            <button type="button" id="view-progress-btn" class="profile-rocker-half is-active">Progress</button>
+            <button type="button" id="view-browse-btn" class="profile-rocker-half">Browse</button>
+          </div>
+          <button type="button" id="switch-profile-btn" class="switch-profile-btn">Switch profile</button>
+        </div>
+        <div id="category-progress" class="category-progress"></div>
+        <div id="category-cards-container" class="category-cards-container is-hidden"></div>
+      </div>
+      <div id="profile-warning-modal" class="modal warning-modal is-hidden">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+          <div class="modal-message" id="profile-warning-message"></div>
+          <div class="modal-actions">
+            <button type="button" id="profile-warning-export-btn" class="modal-btn">Export</button>
+            <button type="button" id="profile-warning-proceed-btn" class="modal-btn modal-btn-primary">Proceed</button>
+            <button type="button" id="profile-warning-cancel-btn" class="modal-btn">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/live/main.ts"></script>
+  </body>
+</html>
+

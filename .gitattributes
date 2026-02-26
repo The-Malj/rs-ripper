@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.png binary
+*.svg binary
+*.{json,ts,tsx,js,jsx,css,html,md,csv} text

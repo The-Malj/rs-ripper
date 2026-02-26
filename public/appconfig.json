@@ -1,0 +1,1 @@
+{"appName":"RSRipper V2","description":"Guided achievement state detector and scanner bootstrap for RuneScape.","appUrl":"index.html","configUrl":"appconfig.json","iconUrl":"/icon.svg","defaultWidth":480,"defaultHeight":360,"minWidth":480,"minHeight":220,"maxWidth":1100,"maxHeight":1000,"requestHandlers":[],"activators":[],"permissions":"pixel,gamestate,overlay"}

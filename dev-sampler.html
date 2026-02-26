@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RSRipper V2 Sampler (Dev)</title>
+  </head>
+  <body>
+    <div id="sampler-app">
+      <div class="toolbar">
+        <button id="capture-btn" type="button">Capture Frame</button>
+        <button id="set-save-folder-btn" type="button">Set Save Folder</button>
+        <button id="save-btn" type="button" disabled>Save Selection</button>
+        <button id="test-btn" type="button" disabled>Test Needle</button>
+        <button id="download-manifest-btn" type="button" disabled>Download Manifest</button>
+      </div>
+
+      <div class="meta-grid">
+        <label>
+          Sample Name
+          <input id="sample-name" type="text" value="sample_001" />
+        </label>
+        <label>
+          State Tag
+          <input id="state-tag" type="text" value="wait_options_menu" />
+        </label>
+        <label>
+          Role
+          <select id="sample-role">
+            <option value="required">required</option>
+            <option value="optional">optional</option>
+            <option value="negative">negative</option>
+          </select>
+        </label>
+      </div>
+
+      <div id="status">Initializing sampler...</div>
+      <div id="save-folder">Save folder: not set (download fallback)</div>
+      <div id="selection-info">Selection: none</div>
+      <div id="test-result">Needle test: not run</div>
+
+      <div class="canvas-wrap">
+        <canvas id="frame-canvas" width="320" height="180"></canvas>
+      </div>
+
+      <div>
+        <h3>Saved Samples</h3>
+        <pre id="samples-list">[]</pre>
+      </div>
+    </div>
+    <script type="module" src="/src/dev-sampler/main.ts"></script>
+  </body>
+</html>

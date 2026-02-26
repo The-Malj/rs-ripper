@@ -1,0 +1,107 @@
+{
+  "categories": [
+    {
+      "name": "skills",
+      "subcategories": [
+        "agility",
+        "archaeology",
+        "attack",
+        "construction",
+        "cooking",
+        "crafting",
+        "defence",
+        "divination",
+        "dungeoneering",
+        "farming",
+        "firemaking",
+        "fishing",
+        "fletching",
+        "herblore",
+        "hunter",
+        "invention",
+        "magic",
+        "mining",
+        "necromancy",
+        "prayer",
+        "ranged",
+        "runecrafting",
+        "slayer",
+        "smithing",
+        "strength",
+        "summoning",
+        "thieving",
+        "woodcutting"
+      ]
+    },
+    {
+      "name": "exploration",
+      "subcategories": [
+        "asgarnia",
+        "desert",
+        "fremennik",
+        "kandarin",
+        "karamja",
+        "morytania",
+        "misthalin",
+        "tirannwn",
+        "wilderness"
+      ]
+    },
+    {
+      "name": "area tasks",
+      "subcategories": [
+        "desert tasks",
+        "falador tasks",
+        "fremennik tasks",
+        "karamja tasks",
+        "lumbridge tasks",
+        "seers' village tasks",
+        "varrock tasks",
+        "wilderness tasks"
+      ]
+    },
+    {
+      "name": "combat",
+      "subcategories": [
+        "bossing",
+        "dungeoneering combat",
+        "slayer combat",
+        "elite dungeons"
+      ]
+    },
+    {
+      "name": "lore",
+      "subcategories": [
+        "books",
+        "mysteries",
+        "quests",
+        "miniquests"
+      ]
+    },
+    {
+      "name": "activities",
+      "subcategories": [
+        "distractions and diversions",
+        "minigames",
+        "clues",
+        "events"
+      ]
+    },
+    {
+      "name": "completionist",
+      "subcategories": [
+        "trim requirements",
+        "master quest cape",
+        "comp cape"
+      ]
+    },
+    {
+      "name": "feats",
+      "subcategories": [
+        "general feats",
+        "combat feats",
+        "speed feats"
+      ]
+    }
+  ]
+}

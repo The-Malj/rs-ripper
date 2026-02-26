@@ -1,0 +1,16 @@
+{
+  "appName": "RSRipper V2 Sampler (Dev)",
+  "description": "Developer-only tool for capturing and validating UI anchor needles.",
+  "appUrl": "dev-sampler.html",
+  "configUrl": "dev-sampler-appconfig.json",
+  "iconUrl": "/icon.svg",
+  "defaultWidth": 1000,
+  "defaultHeight": 700,
+  "minWidth": 600,
+  "minHeight": 420,
+  "maxWidth": 1600,
+  "maxHeight": 1200,
+  "requestHandlers": [],
+  "activators": [],
+  "permissions": "pixel,overlay,gamestate"
+}
