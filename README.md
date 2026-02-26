@@ -1,6 +1,6 @@
 # RS Ripper V2
 
-An [Alt1](https://alt1.eu/) plugin for RuneScape that detects achievement state and guides you through scanning the Achievements interface. It captures the in-game UI, parses visible achievement rows, and tracks completion status across multiple profiles with CSV export.
+An Alt1 plugin for RuneScape that detects achievement state and guides you through scanning the Achievements interface. It captures the in-game UI, parses visible achievement rows, and tracks completion status across multiple profiles with CSV export.
 
 ## Features
 
