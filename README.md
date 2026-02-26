@@ -53,10 +53,10 @@ Build output is written to `dist/` and includes `appconfig.json` from `public/`.
 
 ### Hosted / public
 
-Host the `dist/` folder at your URL root, then install with:
+Install from GitHub Pages (paste in browser):
 
 ```
-alt1://addapp/https://YOUR_HOST/appconfig.json
+alt1://addapp/https://the-malj.github.io/rs-ripper/appconfig.json
 ```
 
 ## Validation
