@@ -90,4 +90,4 @@ npm run release:check
 
 ## License
 
-Private. See repository for details.
+PolyForm Noncommercial 1.0.0 — use, modify, and distribute for non-commercial purposes only. See [LICENSE](LICENSE) for full terms.
